@@ -1,0 +1,421 @@
+.comp{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:100px;
+    border:1px spolid black;
+    width:90%;
+    height:700px;
+    margin-bottom:50px;
+    
+    display:flex;
+   justify-content:space-evenly;
+   transform: translate(100px);
+}
+.child1{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px spolid black;
+    width:90%;
+    height:700px;
+    transform: translate(100px);
+    
+    
+}
+
+.grid-item {
+    border: 1px solid black;
+    width: 15%;
+    height: 600px;
+    box-shadow: 5px 3px rgb(236, 223, 223);
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+.imgs {
+
+    width: 100%;
+    height: 400px;
+
+}
+.firsthead{
+
+      color: black;
+      font-size:21px;
+      font-style:bold;
+      font-weight: normal;
+      text-transform: capitalize;
+      padding:3px 9px;
+      word-spacing: 2px;
+      text-align: left;
+      font-family:"Montserrat", sans-serif;
+      
+}
+.secondhead{
+    color:rgb(195, 189, 189);
+    text-transform: capitalize;
+    padding:0px 5px;
+    word-spacing: 2px;
+    text-align: left;
+}
+.price{
+    color:rgb(133, 234, 133);
+    padding:0px 5px;
+    text-align: left;
+
+}
+.headerclass{
+    border:0px solid black;
+    width:100%;
+    height:60px;
+   }
+   .spanclasssl{
+       color:#009688;
+       margin-top:50px;
+       margin-left:60px;
+       font-size: 40px;
+   }
+   .laneclass{
+       color:black;
+       font-size: 40px;
+       margin-right:40px;
+   
+   }
+   .columnhead{
+   
+       margin-top:50px;
+       margin-left:60px;
+       text-decoration: none;
+       color:black;
+   }
+   .columnhead:hover{
+       text-decoration:none;
+       color:#009688;
+   }
+   #dot{
+       max-width: 30000px;
+       height:80px;
+   }
+   .imageclasscart
+   {
+       width:40px;
+       height:30px;
+       margin-left:100px;
+   }
+   .autodclass{
+    max-width: 30000px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+   }
+   .uimageclass
+   {
+   
+       width:100%;
+       height:100%;
+       display:none;
+       margin-right:110px;
+       position:absolute;
+       top:30px;
+       left:-40px;
+   
+   }
+   .dotss{
+    
+    cursor:pointer;
+    width:20px;
+    height:20px;
+    margin:0px 3px;
+    display:inline-block;
+    border-radius: 75%;
+    background-color:#bbb;
+    transition: background-color 0.6s ease;
+    position:relative;
+    top:40px;
+    left:650px;    
+}
+   .nottod{
+    border:9px solid black;
+    /*border-radius: 100%;*/
+   }
+   .kimdclass{
+       width:100%;
+       height:100%;
+       border-radius:100%;
+       margin:20px 20px;
+   }
+   .images{
+    width: 80px;
+    height: 50px;
+    margin: 60px 80px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #009688;
+    animation: myanimate 3s linear infinite;
+    transform: translate(-50%, -50%);
+}
+   
+   .outerd{
+       
+       border:1px solid rgb(252, 250, 250);
+       margin:30px 50px;
+       width:100%;
+       height:100px;
+       display:flex;
+       flex-direction:row;
+       justify-content:space-between;
+   
+   }
+   @keyframes myanimate {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 150, 136, 0.7), 0 0 0 0 rgba(0, 150, 136, 0.7);
+      }
+      40% {
+        box-shadow: 0 0 0 40px rgba(0, 150, 136, 0),
+          0 0 0 0 rgba(0, 150, 136, 0.7);
+      }
+      80% {
+        box-shadow: 0 0 0 40px rgba(0, 150, 136, 0),
+          0 0 0 15px rgba(0, 150, 136, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(0, 150, 136, 0), 0 0 0 15px rgba(0, 150, 136, 0);
+      }
+   }
+
+   .smallroundf{
+    width:25px;
+    height:20px;
+    border-radius:100%;
+    background-color:#009688;
+    position: absolute;
+    top:0.5px;
+    margin:25px 47px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:0.5px;
+    left: 77.5%;
+  
+
+}
+.footer :hover
+{
+    color:rgba(0, 150, 136, 0.7);
+    cursor: pointer;
+}
+   
+
+@media screen and (max-width: 320px) 
+{
+    
+    .headerclass{
+        border:0px solid black;
+        max-width:100%;
+        height:60px;
+       }
+
+       .spanclasssl{
+        color:#009688;
+       margin-top:50px;
+       margin-left:3px;
+       font-size: 10px;
+    }
+    .laneclass{
+        color:black;
+        font-size: 10px;
+        margin-right:2px;
+      
+    
+    }
+    .columnhead{
+       margin-top:25px;
+        margin-left:3px;
+        font-size: 7px;
+        text-decoration: none;
+        color:black;
+        width:20px;
+        height:15px;
+    }
+    .columnhead:hover{
+        text-decoration:none;
+        color:#009688;
+    }
+    #dot{
+        max-width: 30000px;
+        height:80px;
+    }
+.imageclasscart
+{
+    margin:25px -9px;
+    width:20px;
+    height:15px;
+    margin-left:16px;
+    
+}
+.autodclass{
+    max-width:2000px;
+    height:90px;
+}
+.uimageclass
+{
+
+    width:100%;
+    height:100%;
+    /*display: none;*/
+}
+.dotss{
+    
+    cursor:pointer;
+    width:10px;
+    height:10px;
+    margin:0px 3px;
+    display:inline-block;
+    border-radius: 75%;
+    background-color:rgb(246, 241, 241);
+    transition: background-color 0.6s ease;
+   position:relative;
+    top:18px;
+    left:90px;   
+}
+.nottod{
+ border:9px solid black;
+ /*border-radius: 100%;*/
+}
+.kimdclass{
+        width: 50px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    left: -120px;
+}
+.images{
+    width:40px;
+    height:50px;
+    margin:60px 80px;
+    cursor: pointer;
+    padding: 15px;
+   border-radius: 50%;
+    background-color: #009688;
+    animation: myanimate 3s linear infinite;
+   
+    transform: translate(-50%, -50%);
+}
+.outerd{
+    
+    border:1px solid rgb(252, 250, 250);
+    margin:3px 60px;
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+    .comp{
+        display:grid;
+        grid-template-rows: auto auto;
+        justify-content:space-between;
+    }
+    .child{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin:100px 0px;
+        border:1px spolid black;
+        width:100%;
+        height:700px;
+        transform: translate(60px);
+      position:absolute;
+
+       
+       
+    }
+    .child1{
+
+        display: grid;
+        grid-template-columns: auto auto;
+        border:1px spolid black;
+        width:100%;
+        transform: translate(51px);
+        margin-top: 200px;
+        height:700px;
+        position:absolute;
+       top:150%;
+        
+        
+    }
+   .grid-item {
+        border: 1px solid black;
+        width: 50%;
+        height: 250px;
+        box-shadow: 5px 3px rgb(236, 223, 223);
+        margin: 10px 10px;
+        margin:10px 10px;
+        
+      }
+      
+      
+    .imgs {
+
+        width: 100%;
+        height:25%;
+    
+    }
+    .firsthead
+    {
+    
+          color: black;
+          font-size:10px;
+          font-style:bold;
+          font-weight: normal;
+          text-transform: capitalize;
+          padding:3px 9px;
+          word-spacing: -1px;
+          text-align: left;
+          font-family:"Montserrat", sans-serif;
+    }
+    .secondhead{
+        color:rgb(195, 189, 189);
+        text-transform: capitalize;
+        font-size:9.5px;
+        padding:0px 5px;
+        word-spacing: 2px;
+        text-align: left;
+    }
+    .price{
+        color:rgb(133, 234, 133);
+        font-size:8px;
+        padding:0px 5px;
+        text-align: left;
+    }
+
+    @keyframes myanimate {
+        0% {
+            box-shadow: 0 0 0 0 rgba(0, 150, 136, 0.7), 0 0 0 0 rgba(0, 150, 136, 0.7);
+          }
+          40% {
+            box-shadow: 0 0 0 40px rgba(0, 150, 136, 0),
+              0 0 0 0 rgba(0, 150, 136, 0.7);
+          }
+          80% {
+            box-shadow: 0 0 0 40px rgba(0, 150, 136, 0),
+              0 0 0 15px rgba(0, 150, 136, 0);
+          }
+          100% {
+            box-shadow: 0 0 0 0 rgba(0, 150, 136, 0), 0 0 0 15px rgba(0, 150, 136, 0);
+          }
+       }
+  
+    
+    
+}
+

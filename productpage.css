@@ -1,0 +1,199 @@
+.rowi{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.comp{
+
+    border:1px spolid black;
+    width:500px;
+    height:600px;
+    position:absolute;
+    top:120px;
+    left:120px;
+    
+
+}
+.textc{
+    border:1px spolid black;
+    width:780px;
+    height:1000px;
+    position:absolute;
+    top:120px;
+    left:700px;
+
+}
+.imgs{
+    width:100%;
+    height:100%;
+}
+.firsthead{
+
+    color: black;
+    font-size:42px;
+    font-style:bold;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding:3px 9px;
+    word-spacing: 3px;
+    text-align: left;
+    font-family:"Montserrat", sans-serif;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 8px;
+    
+}
+.secondhead{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+    font-family:"Montserrat", sans-serif;
+    
+}
+.secondheadposition{
+    position: absolute;
+    top: 108px;
+}
+.secondhead2{
+    
+    position: absolute;
+    top: 175px;
+
+}
+.price{
+ 
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:black;
+    font-family:"Montserrat", sans-serif;
+    position: absolute;
+    top: 139px;
+    
+
+}
+.spa{
+   font-style:Bold;
+   font-weight: 190;
+    color:rgba(8, 236, 214);
+}
+.head4c{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: gray;
+    opacity:o.65;
+    font-family:"Montserrat", sans-serif;
+    position: absolute;
+    top: 216px;
+}
+.smalld img{
+border:1px spolid black;
+width: 140px;
+height: 120px;
+position: relative;
+top: 550px;
+left: 13px;
+margin-right: 35px;
+}
+.spd{
+
+    border: 5px solid rgba(8, 236, 214);
+    width: 160px;
+    height: 150px;
+    padding:6px;
+    /* left: 10px;*/
+}
+.buttonclass
+{
+    border:3px;
+    background-color: rgba(8, 236, 214);
+    position:relative;
+    top:580px;
+}
+.productview
+{
+    position: absolute;
+    top: 480px;
+
+}
+.headerclass{
+    border:0px solid black;
+    width:100%;
+    height:60px;
+   }
+   .spanclasssl{
+       color:#009688;
+       margin-top:50px;
+       margin-left:60px;
+       font-size: 40px;
+   }
+   .laneclass{
+       color:black;
+       font-size: 40px;
+       margin-right:40px;
+   
+   }
+   .columnhead{
+   
+       margin-top:50px;
+       margin-left:60px;
+       text-decoration: none;
+       color:black;
+   }
+   .columnhead:hover{
+       text-decoration:none;
+       color:#009688;
+   }
+   #dot{
+       max-width: 30000px;
+       height:80px;
+   }
+   .imageclasscart
+   {
+       width:40px;
+       height:30px;
+       margin-left:100px;
+   }
+   .smallhole{
+    width:25px;
+    height:20px;
+    border-radius:100%;
+    background-color:#009688;
+    position: absolute;
+    top:0.5px;
+    margin:25px -20px;;
+    color: white;
+    text-align: center;
+ 
+
+}
+.smallrounddis{
+    width:25px;
+    height:20px;
+    border-radius:100%;
+    background-color:#009688;
+    position: absolute;
+    top:0.5px;
+    margin:25px -20px;;
+    color: white;
+    text-align: center;
+}
+.footer
+{
+    width:100%;
+    position:absolute;
+    top:230%
+
+}
+.footer :hover
+{
+    color:rgba(0, 150, 136, 0.7);
+    cursor: pointer;
+
+}
