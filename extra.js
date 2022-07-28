@@ -66,19 +66,23 @@ $(document).ready(function () {
   return item;
 }
     
-   for(var i =0;i<window.localStorage.getItem("cart-count");i++)
+   for(var i =0;i<checkoutarr.length;i++)
    {
-
+    if(checkoutarr[i] !== null)
+    {
+      console.log(i)
     checkout.append(createItemOnCheckOut( checkoutarr[i].preview,
       checkoutarr[i].count,
       checkoutarr[i].title,
       checkoutarr[i].price
-
     ))
+    }
+
   }
+  
   var sumof=0;
 
-  for(var i =0;i<window.localStorage.getItem("cart-count");i++)
+  for(var i =0;i<checkoutarr.length;i++)
   {
 
     sumof=sumof+(checkoutarr[i].count *  checkoutarr[i].price)
